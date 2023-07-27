@@ -146,8 +146,8 @@ body {
 .header {
   position: relative;
   color: #212832;
-  background-size: contain;
-  background-position-x: right;
+  background-size: contain !important;
+  background-position-x: right !important;
   padding-top: 88px;
 }
 
@@ -400,7 +400,7 @@ body {
 
 .services {
   margin-top: 222px;
-  background-position-x: 95%;
+  background-position-x: 95% !important;
 }
 
 .services__items {
@@ -1098,8 +1098,8 @@ body {
 .subscribe {
   margin-top: 158px;
   padding-bottom: 70px;
-  background-position-x: 86%;
-  background-position-y: 100%;
+  background-position-x: 86% !important;
+  background-position-y: 100% !important;
 }
 
 .no-webp .subscribe__container{
@@ -1108,7 +1108,7 @@ body {
 .subscribe__container {
   position: relative;
   border-radius: 129px 20px 20px 20px;
-  background-size: cover;
+  background-size: cover !important;
 }
 
 .subscribe__content {

@@ -142,8 +142,8 @@ body {
     position: relative;
     color: #212832;
     background: url("@img/hero/background.png") no-repeat;
-    background-size: contain;
-    background-position-x: right;
+    background-size: contain !important;
+    background-position-x: right !important;
     padding-top: 88px;
     &__top {
         position: fixed;
@@ -485,7 +485,7 @@ body {
 .services {
     @include adaptiv-value("margin-top", 222, 100, $responsiveType);
     background: url("@img/services/background.png") top no-repeat;
-    background-position-x: 95%;
+    background-position-x: 95% !important;
     &__items {
         margin-top: 66px;
         display: flex;
@@ -1207,13 +1207,13 @@ body {
     @include adaptiv-value("margin-top", 158, 80, $responsiveType);
     padding-bottom: 70px;
     background: url("@img/subscribe/decore-bg.png") no-repeat;
-    background-position-x: 86%;
-    background-position-y: 100%;
+    background-position-x: 86% !important;
+    background-position-y: 100% !important;
     &__container {
         position: relative;
         border-radius: 129px 20px 20px 20px;
         background: url("@img/subscribe/background.png") left no-repeat rgb(223, 215, 249, 0.2);
-        background-size: cover;
+        background-size: cover !important;
     }
     &__content {
         display: flex;
